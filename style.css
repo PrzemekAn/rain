@@ -1,0 +1,19 @@
+body {
+    overflow: hidden;
+}
+
+.heart {
+    position: absolute;
+    top: -20px;
+    animation: heartRain 5s linear;
+}
+
+@keyframes heartRain {
+    from {
+        top: 0px
+    }
+
+    to {
+        top: 100vh;
+    }
+}
